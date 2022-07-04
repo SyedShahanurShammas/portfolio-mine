@@ -28,9 +28,15 @@ section {
     background-repeat: no-repeat;
 }
 
+.middle-sec {
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+}
+
 .half-width {
     width: 50%;
     margin-left: 120px;
+    margin-right: 80px;
 }
 
 .half-width img {
