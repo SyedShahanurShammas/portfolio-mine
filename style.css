@@ -1,0 +1,52 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    font-weight: 500;
+}
+
+.p {
+    line-height: 2.5px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 500px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 500px;
+}
+
+section {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 120px;
+}
+
+.half-width img {
+    width: 85%;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+
+.design-button {
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 10px 42px;
+    margin-top: 20px;
+    font-weight: 800;
+    background-image: linear-gradient(tomato, red);
+    opacity: 20px;
+    border-radius: 6px;
+}
