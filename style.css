@@ -8,6 +8,12 @@ body {
     line-height: 2.5px;
 }
 
+.top-banner {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
 h1 {
     font-size: 60px;
     font-weight: 500px;
@@ -18,25 +24,23 @@ h1 {
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 500px;
-}
-
-section {
-    display: flex;
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
 }
 
 .middle-sec {
     background-image: url(images/dream-bg.png);
     background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
 }
 
 .half-width {
     width: 50%;
-    margin-left: 120px;
-    margin-right: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+
 }
 
 .half-width img {
@@ -55,4 +59,38 @@ section {
     background-image: linear-gradient(tomato, red);
     opacity: 20px;
     border-radius: 6px;
+
+}
+
+.experience-item {
+    box-shadow: 11px 11px 38px yellowgreen;
+    width: 45%;
+    height: 400px;
+    margin: 5%;
+    padding-left: 17px;
+
+}
+
+.experience-content {
+    display: flex;
+
+}
+
+.imgb {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#baby-web-deb {
+    border-left: 8px solid blueviolet;
+
+}
+
+#Fullstack-web {
+    border-left: 8px solid tomato;
+}
+
+footer p {
+    text-align: center;
 }
